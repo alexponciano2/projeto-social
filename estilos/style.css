@@ -62,3 +62,23 @@ section#redes-sociais img{
     box-sizing: border-box;
 
 }
+
+#seta{
+    margin-top: 100px;
+    margin-left: 80%;
+    max-width: 20%;
+    width: auto;
+    animation: pular 1s infinite;
+  }
+  
+  @keyframes pular {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
